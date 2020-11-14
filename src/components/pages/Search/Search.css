@@ -1,4 +1,10 @@
 .form {
     background-color:  #1c2237;
     color: #fff;
+    text-align: center;
+}
+
+.results {
+    background-color:  #1c2237;
+    color: #fff;
 }

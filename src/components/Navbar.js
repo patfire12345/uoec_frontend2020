@@ -61,15 +61,6 @@ function Navbar() {
                                 Search
                             </Link>
                         </li>
-                        {/* <li className='nav-item'>
-                            <Link 
-                                to='/products' 
-                                className='nav-links'
-                                onClick={closeMobileMenu}
-                            >
-                                Products
-                            </Link>
-                        </li>
                         <li className='nav-btn'>
                             {button ? (
                                 <Link to='/sign-up' className='btn-link' onClick={closeMobileMenu}>
@@ -83,7 +74,7 @@ function Navbar() {
                                     </Button>
                                 </Link>
                             )}
-                        </li> */}
+                        </li>
                     </ul>
                 </div>
             </div>

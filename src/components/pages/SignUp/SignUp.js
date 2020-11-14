@@ -1,17 +1,29 @@
 import React from 'react'
-import HeroSection from '../../HeroSection'
-import Pricing from '../../Pricing'
-import {homeObjOne,homeObjTwo,homeObjThree,homeObjFour} from './Data'
 
 function SignUp() {
+
+    const signin = async () => {
+
+    
+        const response = await fetch("https://uoec-project-api.herokuapp.com/api/auth/google",
+            {
+                method: "GET", 
+                headers: {
+                    Accept: 'application/json',
+                    'Content-Type': 'application/json'
+                },
+            }
+        );
+
+        if(!response.ok) {
+            throw new Error(response.messages)
+        }
+
+    }
     return (
-        <>
-            <HeroSection {...homeObjOne} />
-            <HeroSection {...homeObjTwo} />
-            <HeroSection {...homeObjThree} />
-            <Pricing />
-            <HeroSection {...homeObjFour} />
-        </>
+        <div>
+           {signin} 
+        </div>
     )
 }
 
