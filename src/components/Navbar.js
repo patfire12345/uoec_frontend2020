@@ -1,7 +1,6 @@
 import React, {useState,useEffect} from 'react'
 import './Navbar.css';
 import {Link} from 'react-router-dom'
-import {MdFingerprint} from 'react-icons/md'
 import {FaBars, FaTimes} from 'react-icons/fa'
 import { Button } from './Button'
 import { IconContext } from 'react-icons/lib'

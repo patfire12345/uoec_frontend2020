@@ -1,8 +1,5 @@
 import {useFormik} from 'formik'
 import React, {useState} from 'react'
-// import HeroSection from '../../HeroSection'
-// import Pricing from '../../Pricing'
-// import {homeObjOne,homeObjTwo,homeObjThree,homeObjFour} from './Data'
 import './Search.css'
 
 function Search() {
@@ -20,7 +17,7 @@ function Search() {
             setWebsite([]);
             
             
-            const response = await fetch("" + encodeURIComponent(values.search), 
+            const response = await fetch("" + encodeURIComponent(values.search),
                 {
                     method: "GET", 
                     headers: {
