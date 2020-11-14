@@ -7,6 +7,7 @@ import Services from './components/pages/Services/Services'
 import Footer from './components/pages/Footer/Footer';
 import Products from './components/pages/Products/Products';
 import SignUp from './components/pages/SignUp/SignUp';
+import Search from './components/pages/Search/Search';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Navbar/>
       <Switch>
         <Route path='/' exact component={Home}/>
+        <Route path='/search' component={Search}/>
         {/* <Route path='/services' component={Services}/>
         <Route path='/products' component={Products}/>
         <Route path='/sign-up' component={SignUp}/> */}
