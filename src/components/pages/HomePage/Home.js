@@ -2,7 +2,7 @@ import React from 'react'
 import HeroSection from '../../HeroSection'
 import Pricing from '../../Pricing'
 import {homeObjOne,homeObjTwo,homeObjThree,homeObjFour} from './Data'
-import App from '../../Search/App';
+// import Search from '../../Search';
 
 function Home() {
     return (
